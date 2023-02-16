@@ -1,6 +1,9 @@
 package com.micro.productservice.controller;
 
+import java.util.List;
+
 import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,6 +11,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.micro.productservice.dto.ProductRequest;
+import com.micro.productservice.dto.ProductResponse;
 import com.micro.productservice.service.ProductService;
 
 import lombok.RequiredArgsConstructor;
@@ -17,11 +21,18 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ProductCtrl {
 
-    private ProductService productService;
+    private final ProductService productService;
 
-    @PostMapping("/")
+    @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public void createProduct(@RequestBody ProductRequest productRequest) {
-        this.productService.createProduct(productRequest);
+        productService.createProduct(productRequest);
+    }
+
+
+    @GetMapping
+    @ResponseStatus(HttpStatus.OK)
+    public List<ProductResponse> getAllProducts(){
+        return productService.getAllProducts();
     }
 }
