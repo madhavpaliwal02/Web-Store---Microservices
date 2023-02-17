@@ -18,7 +18,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ProductService {
 
-    // @Autowired
     private final ProductRepo productRepo;
 
     public void createProduct(ProductRequest productRequest) {
