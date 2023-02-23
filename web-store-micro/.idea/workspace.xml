@@ -4,17 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="616acb37-e6ad-4a52-8e2c-53c7d2a6a551" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+    <list default="true" id="e39cc348-e533-465b-863b-9d986814aab1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/micro/inventoryservice/InventoryServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/micro/inventoryservice/InventoryServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/micro/inventoryservice/controller/InventoryCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/micro/inventoryservice/controller/InventoryCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/micro/inventoryservice/model/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/micro/inventoryservice/model/Inventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/micro/inventoryservice/repository/InventoryRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/micro/inventoryservice/repository/InventoryRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/micro/inventoryservice/service/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/micro/inventoryservice/service/InventoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/test-classes/com/micro/inventoryservice/InventoryServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/test-classes/com/micro/inventoryservice/InventoryServiceApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/OrderServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/OrderServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/controller/OrderCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/controller/OrderCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/dto/OrderLineItemsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/dto/OrderLineItemsDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/dto/OrderRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/dto/OrderRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/model/OrderLineItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/model/OrderLineItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/repository/OrderRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/repository/OrderRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/micro/orderservice/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/test-classes/com/micro/orderservice/OrderServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/test-classes/com/micro/orderservice/OrderServiceApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/ProductServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/ProductServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/controller/ProductCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/controller/ProductCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/dto/ProductRequest$ProductRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/dto/ProductRequest$ProductRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/dto/ProductRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/dto/ProductRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/dto/ProductResponse$ProductResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/dto/ProductResponse$ProductResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/dto/ProductResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/dto/ProductResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/model/Product$ProductBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/model/Product$ProductBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/repository/ProductRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/repository/ProductRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/micro/productservice/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/surefire-reports/TEST-com.micro.productservice.ProductServiceApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/surefire-reports/com.micro.productservice.ProductServiceApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/test-classes/com/micro/productservice/ProductServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/test-classes/com/micro/productservice/ProductServiceApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +62,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2M64zrNjx6IKlZfKK4gxMDdwavk" />
+  <component name="ProjectId" id="2M6YmG9xsY4qdeydFj0UU0fiaYo" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -42,19 +70,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/VSCode/Microservices/Web Store/web-store-micro/inventory-service",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/VSCode/Microservices/Web Store/web-store-micro/inventory-service&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\VSCode\Microservices\Web Store\web-store-micro\inventory-service" />
@@ -62,19 +85,14 @@
       <recent name="C:\VSCode\Microservices\Web Store\web-store-micro\product-service" />
     </key>
   </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean verify" />
-    </option>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="616acb37-e6ad-4a52-8e2c-53c7d2a6a551" name="Changes" comment="" />
-      <created>1677074968712</created>
+      <changelist id="e39cc348-e533-465b-863b-9d986814aab1" name="Changes" comment="" />
+      <created>1677089657704</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677074968712</updated>
+      <updated>1677089657704</updated>
     </task>
     <servers />
   </component>
