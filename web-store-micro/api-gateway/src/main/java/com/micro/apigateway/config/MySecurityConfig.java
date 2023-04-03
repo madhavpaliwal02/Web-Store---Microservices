@@ -12,8 +12,7 @@ public class MySecurityConfig {
 
     @Bean
     public SecurityWebFilterChain filterChain(ServerHttpSecurity serverHttpSecurity) throws Exception {
-        serverHttpSecurity.csrf()
-                .disable()
+        serverHttpSecurity.csrf().disable()
                 .authorizeExchange(exchange -> exchange
                         .pathMatchers("/eureka/**")
                         .permitAll()
