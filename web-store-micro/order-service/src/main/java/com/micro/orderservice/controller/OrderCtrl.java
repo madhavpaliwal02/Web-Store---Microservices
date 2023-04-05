@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.micro.orderservice.dto.OrderRequest;
 import com.micro.orderservice.service.OrderService;
 
+// import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -21,14 +22,13 @@ public class OrderCtrl {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
+    // @CircuitBreaker(name = "inventory", fallbackMethod = "fallBackMethod")
     public String placeOrder(@RequestBody OrderRequest orderRequest) {
         orderService.placeOrder(orderRequest);
         return "Order placed successfully";
     }
 
-    // @GetMapping
-    // @ResponseStatus(HttpStatus.OK)
-    // public List<OrderResponse> getOrders(){
-
-    // }
+    public String fallBackMethod(OrderRequest orderRequest, RuntimeException runtimeException) {
+        return "There might be some problem, please try again later !";
+    }
 }
