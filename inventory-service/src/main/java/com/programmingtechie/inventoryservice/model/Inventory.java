@@ -1,22 +1,18 @@
-package com.micro.inventoryservice.model;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+package com.programmingtechie.inventoryservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import jakarta.persistence.*;
+
 @Entity
-@Table(name = "t_inventory")
-@AllArgsConstructor
-@NoArgsConstructor
+@Table
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Inventory {
 
     @Id
