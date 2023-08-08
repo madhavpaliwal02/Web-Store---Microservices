@@ -1,7 +1,0 @@
-com\micro\inventoryservice\model\Inventory.class
-com\micro\inventoryservice\controller\InventoryCtrl.class
-com\micro\inventoryservice\dto\InventoryResponse.class
-com\micro\inventoryservice\service\InventoryService.class
-com\micro\inventoryservice\InventoryServiceApplication.class
-com\micro\inventoryservice\dto\InventoryResponse$InventoryResponseBuilder.class
-com\micro\inventoryservice\repository\InventoryRepo.class
