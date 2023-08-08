@@ -1,24 +1,21 @@
-package com.micro.productservice.service;
+package com.programmingtechie.productservice.service;
 
-import java.util.List;
-
-// import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import com.micro.productservice.dto.ProductRequest;
-import com.micro.productservice.dto.ProductResponse;
-import com.micro.productservice.model.Product;
-import com.micro.productservice.repository.ProductRepo;
-
+import com.programmingtechie.productservice.dto.ProductRequest;
+import com.programmingtechie.productservice.dto.ProductResponse;
+import com.programmingtechie.productservice.model.Product;
+import com.programmingtechie.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
 @Slf4j
 public class ProductService {
 
-    private final ProductRepo productRepo;
+    private final ProductRepository productRepository;
 
     public void createProduct(ProductRequest productRequest) {
         Product product = Product.builder()
@@ -27,12 +24,12 @@ public class ProductService {
                 .price(productRequest.getPrice())
                 .build();
 
-        productRepo.save(product);
-        log.info("Produt {} is saved", product.getId());
+        productRepository.save(product);
+        log.info("Product {} is saved", product.getId());
     }
 
     public List<ProductResponse> getAllProducts() {
-        List<Product> products = productRepo.findAll();
+        List<Product> products = productRepository.findAll();
 
         return products.stream().map(this::mapToProductResponse).toList();
     }
